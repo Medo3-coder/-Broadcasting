@@ -100,7 +100,9 @@ class MessageNotification implements ShouldBroadcast
 
    - go config -> app.php in 'providers' and uncomment this   
     
-     App\Providers\BroadcastServiceProvider::class, 
+   ```  
+   App\Providers\BroadcastServiceProvider::class, 
+   ```
 
    
  
