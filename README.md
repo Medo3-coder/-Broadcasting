@@ -111,7 +111,8 @@ class MessageNotification implements ShouldBroadcast
 
    - laravel Echo : is advanced framework feature with js package reduces the amount of code to write 
                    is a JavaScript library that makes it painless to subscribe to channels and listen for events broadcast
-                   by your server-side broadcasting driver.
+                   by your server-side broadcasting driver , 
+                   is going interact with pusher to send and basically receive elements from real time message 
 
   - ```use : npm install pusher-js laravel-echo --save```
 
