@@ -22,7 +22,7 @@ run :
     ```
 
   - change the driver to
-    ```ruby
+    ```
    BROADCAST_DRIVER=pusher
 
    ```
