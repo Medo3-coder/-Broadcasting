@@ -4,8 +4,8 @@
 Introduction
 1- Setting up our Broadcast
 
-run :
- - composer require pusher/pusher-php-server
+    run :
+    - composer require pusher/pusher-php-server
 
 
 2- Setting up Pusher API
@@ -13,12 +13,12 @@ run :
   -use channenls
   -create new app and chouse cluster near to me and frontend and backend technology
   -in menu -> App keys use this cerdintials in env file to make sure you can interact to pusher 
-    ```ruby
+     ```ruby
     PUSHER_APP_ID=1292643
     PUSHER_APP_KEY=bdd71b297e8d2ac2d0a1
     PUSHER_APP_SECRET=7b7d92a80775e19f986c
     PUSHER_APP_CLUSTER=eu
-    ```
+     ```
 
   - change the driver to  ```BROADCAST_DRIVER=pusher```
 
@@ -80,10 +80,10 @@ class MessageNotification implements ShouldBroadcast
 
    - i have three type of channels 
 
-   1 - public Channel :
-          any type of user can subscribe whether authenticated or not
+    1 - public Channel :
+          any type of user can subscribe whether authenticated or not.
 
-   2 - private Channel :
+    2 - private Channel :
          Private channels require you to authorize that the currently
          authenticated user can actually listen on the channel. This is accomplished by making
          an HTTP request to your Laravel application with the channel
