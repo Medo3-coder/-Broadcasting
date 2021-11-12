@@ -21,7 +21,7 @@ run :
 
     ```
 
-  - change the driver to    ```   BROADCAST_DRIVER=pusher   ```
+  - change the driver to  ```BROADCAST_DRIVER=pusher```
 
 
 
