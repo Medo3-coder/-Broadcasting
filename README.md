@@ -13,12 +13,11 @@ run :
   -use channenls
   -create new app and chouse cluster near to me and frontend and backend technology
   -in menu -> App keys use this cerdintials in env file to make sure you can interact to pusher 
-     ```ruby
+    ```ruby
     PUSHER_APP_ID=1292643
     PUSHER_APP_KEY=bdd71b297e8d2ac2d0a1
     PUSHER_APP_SECRET=7b7d92a80775e19f986c
     PUSHER_APP_CLUSTER=eu
-
     ```
 
   - change the driver to  ```BROADCAST_DRIVER=pusher```
